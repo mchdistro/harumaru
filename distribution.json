@@ -1,0 +1,356 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "260614-1.21.4",
+      "name": "harumaru",
+      "description": "Minecraft 1.21.4 (Fabric v0.19.3)",
+      "icon": "https://github.com/mchdistro/harumaru/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "aa72508592e2cb876697b9b99bff2612",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/versions/1.21.4-fabric-0.19.3/1.21.4-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/harumaru/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.7@jar",
+          "name": "AmbientSounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84868061,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/AmbientSounds_FABRIC_v6.1.7_mc1.21.4.jar",
+            "MD5": "034039224ef21c87e86328adcfb35d3d"
+          }
+        },
+        {
+          "id": "bamong.collection:bamong_collection:1.0.0@jar",
+          "name": "Bamong Collection Client",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 115118,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/bamong-collection-client-1.0.0.jar",
+            "MD5": "cbdddce2465c6e23d3a58ed589090666"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.35@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1201558,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/CreativeCore_FABRIC_v2.12.35_mc1.21.4.jar",
+            "MD5": "6711d5bce347c577c3368c9643b12f13"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.5.8@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1259819,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/emotecraft-fabric-for-MC1.21.4-2.5.8.jar",
+            "MD5": "ecbcffd1aa9d83847e00da62fc45d9b3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "dev.tr7zw:firstperson:2.6.3@jar",
+          "name": "FirstPerson",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1597092,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/firstperson-fabric-2.6.3-mc1.21.4.jar",
+            "MD5": "66c17a2171921ecd6edf9fd4e5b74c9d"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.4.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 644183,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/ForgeConfigAPIPort-v21.4.3-1.21.4-Fabric.jar",
+            "MD5": "dbda05e27f5b2710d991196c66261df1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514384,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "3893e727701bc66b4f3dbd80a434282d"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 595769,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.3.jar",
+            "MD5": "f5c52ca25f04821fd25a205fa870e1bf"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "org.embeddedt:modernfix:5.20.3+mc1.21.4@jar",
+          "name": "ModernFix",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 436498,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/modernfix-fabric-5.20.3+mc1.21.4.jar",
+            "MD5": "1bee2326edcced182b86154e44810971"
+          }
+        },
+        {
+          "id": "icyllis.modernui.mc:modernui:3.12.0.3@jar",
+          "name": "Modern UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 24980150,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/ModernUI-Fabric-1.21.4-3.12.0.3-universal.jar",
+            "MD5": "8c57f5e392d9fcc8f9800dd77612703f"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.1+mc1.21.4@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360180,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/sodium-extra-fabric-0.6.1+mc1.21.4.jar",
+            "MD5": "4d43b252c771523c6e0a219e9eadd63b"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "kr.shihyeon:tabnametag:0.1.0+mc1.21.2@jar",
+          "name": "TabNameTag",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11004,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/tabnametag-fabric-0.1.0+mc1.21.2.jar",
+            "MD5": "ccd2d08433133ca66ca082dd459a003e"
+          }
+        },
+        {
+          "id": "me.zipestudio.talkingheads.entrypoint:talkingheads:1.1.0+1.21.4+fabric@jar",
+          "name": "Talking Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 287489,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/TalkingHeads-1.1.0+1.21.4+fabric.jar",
+            "MD5": "f76ea73c24d486d9e961bf3fbb15e503"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.4-2.6.12@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5348580,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.6.12.jar",
+            "MD5": "35c45828a810bf41f655a52dd9d0c6be"
+          }
+        },
+        {
+          "id": "YHnickname.yhnicknamemod:yhnicknamemod:1.0-SNAPSHOT@jar",
+          "name": "YHnicknamemod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6368762,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/YHnicknamemod-1.0-SNAPSHOT.jar",
+            "MD5": "34a7b9956e4fedd894678e186868c907"
+          }
+        },
+        {
+          "id": "YZBnickname.yzbnicknamemod:yzbnicknamemod:1.0-SNAPSHOT@jar",
+          "name": "YZBnicknamemod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18641835,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/fabricmods/required/YZBnicknamemod-1.0-SNAPSHOT.jar",
+            "MD5": "659452c6e7046c5e7e1065359b7c0744"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6002,
+            "url": "https://github.com/mchdistro/harumaru/raw/main/servers/260614-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}

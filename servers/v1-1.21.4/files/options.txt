@@ -51,8 +51,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/Whimscape_1.20.2-1.21.11_r2.zip"]
+incompatibleResourcePacks:["koreanpatch","modernfix","talkingheads"]
 lastServer:harumaru.mcv.kr
 lang:ko_kr
 chatVisibility:0
@@ -78,7 +78,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:true
